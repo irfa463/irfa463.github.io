@@ -333,28 +333,74 @@ canvas{border-radius:var(--radius-md)}
       <p class="section__sub">Research code, UMAT implementations, and analysis pipelines — depositing on Zenodo and GitHub upon thesis submission. All repositories will carry a citable DOI.</p>
     </div>
     <div class="github-section reveal">
-      <div class="repo-grid">
-        <div class="repo-card">
-          <div class="repo-card__header"><span class="repo-icon">📦</span><span class="repo-card__name">hygro-dual-damage-UMAT</span></div>
-          <p class="repo-card__desc">Coupled hygro-viscoelastic dual-damage UMAT in FORTRAN for Abaqus/Standard. Integrates Carter–Kibler transport with reversible plasticisation (D_P) and irreversible hydrolytic damage (D_H) for PA6-matrix composites.</p>
-          <div class="repo-card__footer"><span class="repo-tag">FORTRAN</span><span class="repo-tag">Abaqus</span><span class="repo-status">⏳ Releasing on thesis submission</span></div>
-        </div>
-        <div class="repo-card">
-          <div class="repo-card__header"><span class="repo-icon">📊</span><span class="repo-card__name">bootstrap-identifiability</span></div>
-          <p class="repo-card__desc">Python surrogate for parametric bootstrapping (n=1000) and OAT sensitivity analysis. Reproduces UMAT prediction intervals without Abaqus runtime — enables rapid uncertainty quantification.</p>
-          <div class="repo-card__footer"><span class="repo-tag">Python</span><span class="repo-tag">NumPy</span><span class="repo-tag">Matplotlib</span><span class="repo-status">⏳ Releasing on thesis submission</span></div>
-        </div>
-        <div class="repo-card">
-          <div class="repo-card__header"><span class="repo-icon">📈</span><span class="repo-card__name">composite-aging-plots</span></div>
-          <p class="repo-card__desc">Publication-quality Matplotlib figures: moisture uptake curves, Prony series fits, DMA master curves, bootstrap prediction envelopes, and CDM damage evolution plots for CF/Onyx composites.</p>
-          <div class="repo-card__footer"><span class="repo-tag">Python</span><span class="repo-tag">Matplotlib</span><span class="repo-tag">SciPy</span><span class="repo-status">⏳ Releasing on thesis submission</span></div>
-        </div>
-        <div class="repo-card">
-          <div class="repo-card__header"><span class="repo-icon">🧪</span><span class="repo-card__name">experimental-datasets</span></div>
-          <p class="repo-card__desc">Raw and processed experimental data: DMA frequency sweeps, tensile test curves at multiple ageing stages, gravimetric moisture uptake, and DIC strain fields for CF/Onyx coupons. Deposited on Zenodo with DOI.</p>
-          <div class="repo-card__footer"><span class="repo-tag">CSV / HDF5</span><span class="repo-tag">Zenodo</span><span class="repo-status">⏳ Releasing on thesis submission</span></div>
-        </div>
-      </div>
+     <div class="repo-grid">
+  <div class="repo-card">
+    <div class="repo-card__header">
+      <span class="repo-icon">📦</span>
+      <span class="repo-card__name">
+        <a href="https://github.com/irfa463/hygro-dual-damage-UMAT"
+           target="_blank" rel="noopener noreferrer"
+           style="color:var(--color-primary);text-decoration:none">
+          hygro-dual-damage-UMAT
+        </a>
+      </span>
+    </div>
+    <img src="https://raw.githubusercontent.com/irfa463/hygro-dual-damage-UMAT/main/figures/graphical_abstract.png"
+         alt="Graphical abstract — biphasic degradation, Carter-Kibler transport, dual-damage UMAT, bootstrap identifiability"
+         style="width:100%;border-radius:0.5rem;margin-bottom:1rem;border:1px solid var(--color-border)">
+    <p class="repo-card__desc">Coupled hygro-viscoelastic dual-damage UMAT in FORTRAN for Abaqus/Standard. Integrates Carter–Kibler transport with reversible plasticisation (D_P) and irreversible hydrolytic damage (D_H) for PA6-matrix composites.</p>
+    <div class="repo-card__footer">
+      <span class="repo-tag">FORTRAN</span>
+      <span class="repo-tag">Abaqus</span>
+      <a href="https://github.com/irfa463/hygro-dual-damage-UMAT"
+         target="_blank" rel="noopener noreferrer"
+         style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--color-primary);text-decoration:none">
+        → View on GitHub
+      </a>
+    </div>
+  </div>
+
+  <div class="repo-card">
+    <div class="repo-card__header">
+      <span class="repo-icon">📊</span>
+      <span class="repo-card__name">bootstrap-identifiability</span>
+    </div>
+    <p class="repo-card__desc">Python surrogate for parametric bootstrapping (n=1000) and OAT sensitivity analysis. Reproduces UMAT prediction intervals without Abaqus runtime — enables rapid uncertainty quantification.</p>
+    <div class="repo-card__footer">
+      <span class="repo-tag">Python</span>
+      <span class="repo-tag">NumPy</span>
+      <span class="repo-tag">Matplotlib</span>
+      <span class="repo-status">⏳ Releasing on thesis submission</span>
+    </div>
+  </div>
+
+  <div class="repo-card">
+    <div class="repo-card__header">
+      <span class="repo-icon">📈</span>
+      <span class="repo-card__name">composite-aging-plots</span>
+    </div>
+    <p class="repo-card__desc">Publication-quality Matplotlib figures: moisture uptake curves, Prony series fits, DMA master curves, bootstrap prediction envelopes, and CDM damage evolution plots for CF/Onyx composites.</p>
+    <div class="repo-card__footer">
+      <span class="repo-tag">Python</span>
+      <span class="repo-tag">Matplotlib</span>
+      <span class="repo-tag">SciPy</span>
+      <span class="repo-status">⏳ Releasing on thesis submission</span>
+    </div>
+  </div>
+
+  <div class="repo-card">
+    <div class="repo-card__header">
+      <span class="repo-icon">🧪</span>
+      <span class="repo-card__name">experimental-datasets</span>
+    </div>
+    <p class="repo-card__desc">Raw and processed experimental data: DMA frequency sweeps, tensile test curves at multiple ageing stages, gravimetric moisture uptake, and DIC strain fields for CF/Onyx coupons. Deposited on Zenodo with DOI.</p>
+    <div class="repo-card__footer">
+      <span class="repo-tag">CSV / HDF5</span>
+      <span class="repo-tag">Zenodo</span>
+      <span class="repo-status">⏳ Releasing on thesis submission</span>
+    </div>
+  </div>
+</div>
       <div class="github-link-bar">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="color:var(--color-text-muted)"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222 0 1.606-.015 2.898-.015 3.293 0 .322.216.694.825.576C20.565 21.796 24 17.298 24 12c0-6.63-5.37-12-12-12z"/></svg>
         <span class="github-link-bar__text">GitHub profile:</span>
